@@ -8,14 +8,19 @@ body {
   color: #ffffff;
   font-family: 'Roboto Mono', monospace;
   background-color: #000000;
-  float: clear;
+  float: right;
+}
+.display-3, .lead {
+  position: relative;
+  right: 20%;
+  top: 20px;
 }
 #slides {
-  width: 600px;
-  height: 400px;
-  border-style: solid;
-  border-width: medium;
-  margin: 0;
+  width: 65%;
+  height: 100px;
+  position: relative;
+  left: 60%;
+  bottom: 105px;
 }
 
 
