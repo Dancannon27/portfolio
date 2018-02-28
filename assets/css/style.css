@@ -13,6 +13,7 @@ body {
 .display-3, .lead {
   position: relative;
   right: 20%;
+  left: 5%;
   top: 20px;
 }
 #slides {
