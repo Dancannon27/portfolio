@@ -1,6 +1,6 @@
 body {
   /* Positioning */
-  margin-bottom: 150px;
+  margin-bottom: 75px;
   
 
   /* Typography */
@@ -22,7 +22,7 @@ html {
 /* ---------NAV START---------- */
 
 .navbar-custom {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 #logo {
@@ -39,7 +39,7 @@ html {
   /* Typography */
   font-size: 24px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .navbar-right-custom {
@@ -78,7 +78,7 @@ html {
     border: 5px solid #4a7daa;
 
   /* Positioning */
-  margin-top: 32px;
+  margin-top: 1px;
 
   /* Visual */
   background-color: #fff;
@@ -120,7 +120,7 @@ html {
   padding: 30px 30px 43px;
 
   /* Positioning */
-  margin-top: 32px;
+  margin-top: 1px;
   border-radius: 25px;
     border: 5px solid #4a7daa;
 
