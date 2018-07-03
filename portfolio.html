@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
   <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Portfolio</title>
+    <title>Bootstrap Basic Portfolio</title>
 
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
   </head>
 
@@ -31,14 +32,16 @@
               <span class="icon-bar"></span>
             </button>
             <div class="col-xs-12 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Daniel Cannon Smith</a>
+              <a class="navbar-brand" href="#" id="logo">Your Name</a>
             </div>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li><a href="contact.html">Contact</a></li>
               <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="index.html">About</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div>
@@ -50,45 +53,33 @@
     <div class="wrap">
       <div class="container">
         <section class="row">
-          <div class="col-md-8">
-            <article class="about-me-content">
-              <h1 class="about-me-header">Full Stack Web Developer</h1>
-              <hr class="about-me-hr"/>
-              <img src="assets/images/me.jpg" alt="" id="nate-image"/>
-              <h3>Summary of Qualifications</h3>
-              <p>A Full-Stack Web Developer that has worked on multiple team projects while at University of Texas coding boot camp. Daniel’s main focus on projects was leading the backend MySQL and API synchronization. After graduating his focus has been spent on ReactJS and exploring new technologies.</p>
-              <br />
-              <h4>Core Competencies</h4>
-              <p>
-                ▪	Git
-                ▪	HTML/CSS/Bootstrap
-                ▪	JavaScript
-                ▪	Node.js
-                ▪	React.js/ES6
-                ▪	jQuery
-                ▪	MySQL/MongoDB
-                ▪	APIs
-                ▪	Responsive Design
-                ▪	Express </p>
-            </article>
+          <div class="col-md-7">
+            <section id="portfolio-area">
+              <h1 class="port-header">Portfolio</h1>
+              <hr class="port-hr"/>
+              <img class="port-imgs" src="http://lorempixel.com/223/166" alt="">
+              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
+              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
+              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
+              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
+            </section>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5">
 
             <!-- Start of Connect With Me Area -->
             <section id="connect-with-me-area">
               <div class="connect-with-me-content">
                 <h1 class="connect-with-me-header">Connect With Me</h1>
-                <h4 class="connect">Email: dancannon27@icloud.com</h4>
-                <h4 class="connect">Phone: 281-391-9630</h4>
                 <hr />
                 <div id="images">
-                  <a href="https://github.com/Dancannon27"><img src="assets/images/github.png" alt="" class="connect-with-me-photo"></a>
-                  <a href="https://www.linkedin.com/in/dancannon27/"><img src="assets/images/linkedin.png" alt="" class="connect-with-me-photo"></a>
+                  <img src="assets/imgs/github.png" alt="" class="connect-with-me-photo">
+                  <img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo">
+                  <img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo">
                 </div>
               </div>
             </section>
+
             <!-- End of the Connect With Me Area -->
-            
           </div>
         </section>
       </div>
@@ -109,6 +100,7 @@
 
     <!-- Bootstrap CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </body>
 
 </html>
