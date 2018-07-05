@@ -312,7 +312,7 @@ html {
 
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4a7daa;
+    background-color: #000000;
   }
 
   #logo {
@@ -334,6 +334,6 @@ html {
     text-align: center;
 
     /* Visual */
-    background: #4a7daa;
+    background: #000000;
   }
 }
