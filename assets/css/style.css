@@ -52,7 +52,7 @@ html {
   font-weight: lighter;
 }
 
-.navbar-nav > li {
+.navbar-nav > li a:hover {
   color: #4a7daa;
   
 }
