@@ -7,7 +7,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background: linear-gradient(-90deg, rgb(46, 32, 20), rgb(255, 132, 0));
+  background: linear-gradient(-90deg, rgb(46, 32, 20), rgb(216, 105, 19));
 }
 
 html {
@@ -62,7 +62,8 @@ html {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Georgia, Times, serif;
+  text-align: center;
 
   /* Typography */
   font-size: 32px;
@@ -75,7 +76,7 @@ html {
   width: 100%;
   padding: 30px;
   border-radius: 25px;
-    border: 10px solid #4a7daa;
+    border: 5px solid #4a7daa;
 
   /* Positioning */
   margin-top: 1px;
@@ -122,7 +123,7 @@ html {
   /* Positioning */
   margin-top: 1px;
   border-radius: 25px;
-    border: 10px solid #4a7daa;
+    border: 5px solid #4a7daa;
 
   /* Visual */
   background-color: #fff;
@@ -132,6 +133,7 @@ html {
   /* Positioning */
   margin-bottom: 15px;
   font-family: Georgia, Times, "Times New Roman", serif;
+  text-align: center;
 
   /* Typography */
   font-size: 25px;
