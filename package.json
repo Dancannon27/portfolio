@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Resume and Projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dancannon27/portfolio.git"
+  },
+  "author": "Daniel Cannon Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dancannon27/portfolio/issues"
+  },
+  "homepage": "https://github.com/Dancannon27/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
